@@ -30,6 +30,21 @@
   -webkit-background-clip: text; /* Clip the background to the text */
   -webkit-text-fill-color: transparent; /* Hide the original text */
 }
+.badge-container {
+  position: fixed;
+  top: 20px;
+  right: 50px;
+  z-index: 1000; /* Adjust z-index as needed */
+  
+}
+
+.badge-container img {
+  width: 150px;
+  height: 32px;
+  
+}
+
+
 
 .main:before {
   background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%);
